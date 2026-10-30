@@ -1,0 +1,16 @@
+[project]
+
+name = "profalign"
+version = "2.3.3"
+description = "Profile alignment pipeline for clustering and merging MSAs"
+readme = "README.md"
+authors = [{name="Peter Vlasov"}]
+
+dependencies = [
+    "numpy",
+    "scipy",
+]
+
+[project.scripts]
+
+profalign = "profalign.cli:main"
